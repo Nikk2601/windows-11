@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-image: url('../Images/wallpaper.jpeg');
+    background-size: cover;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+}
+
+/* TASKBAR */
+
+#taskbar{
+    position: absolute;
+    background-color: #252424;
+    opacity: 0.95;
+    bottom: 0;
+    width: 100%;
+    z-index: 110;
+    justify-content: center;
+    display: flex;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    z-index: 111;
+}
+
+.icons img{
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    /* margin-top: 3px; */
+}
+
+.icons img:hover{
+    background-color: #464242;
+}
+
+.filemanager{
+    position: absolute;
+    bottom: -720px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-out; 
+}
+
+.filemanager img{
+    width: 100vw;
+    height: 100vh;
+}
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+    
+}
+
+.startmenu img{
+    /* position: absolute;
+    /* bottom: 50px;
+    bottom: -83px;
+     width: 100%; 
+    text-align: center;
+    transition: all 0.3s ease-in; */
+    border-radius: 8px;
+}
+
+.extra{
+   position: absolute;
+   justify-self: flex-end;
+   right: 110px;
+   margin-top: 4px;
+}
+
+.extra img{
+    height: 35px;
+    /* width: 35px; */
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 1000px;
+}
+
+.extra img:hover{
+    cursor: pointer;
+    background-color: #464242;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.arrow{
+   position: absolute;
+   justify-self: flex-end;
+   right: 230px;
+   margin-top: 15px;
+}
+
+.arrow img{
+    height: 35px;
+    /* width: 35px; */
+    padding: 10px;
+    padding-top: 5px;
+    /* padding-bottom: 5px; */
+    border-radius: 1000px;
+}
+
+.arrow img:hover{
+    cursor: pointer;
+    background-color: #464242;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#arrow {
+    height: 9px;
+    width: 15px;
+    margin-bottom: 15px;
+}
+
+.arrowicons{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: right;
+    right: 180px;
+    transition: all 0.3s ease-in-out; 
+}
+
+.arrowicons img{
+    border: solid 1px;
+    border-radius: 6px;
+    border-color: rgb(224, 215, 202);
+
+}
+
+.clock{
+    font-size: small;
+    color: bisque;
+    justify-self: flex-end;
+    position: absolute;
+    right: 6px;
+    margin: 6px 0;
+    font-size: smaller;
+    /* height: 85%; */
+}
+
+.clock :hover{
+    background-color: #464242;
+    cursor: pointer;
+    border-radius: 4px;
+}
